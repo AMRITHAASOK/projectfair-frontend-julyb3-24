@@ -33,6 +33,12 @@ function Home() {
                 </div>
               </div>
         </div>
+
+        <div className="row text-center">
+              <Link to={'/projects'}>
+              <button className='btn btn-dark'>View Project</button>
+              </Link>
+        </div>
       </div>
       
     </>
